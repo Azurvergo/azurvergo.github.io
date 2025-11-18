@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta name="theme-color" content="#508ea9">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Современный адаптивный сайт с новостями и контактами">
+    <meta name="keywords" content="новости, контакты, медиаконтент">
+    <title>Azurvergo - Главная страница</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 2px 1px;
+            border-radius: 2px;
+            font-weight: bold;
+            color: #333;
+        }
+        .search-loading {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Логотип">
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="home-content">
+                <h1>Добро пожаловать</h1>
+                <p>Создаем интересный медиаконтент и делимся новостями. Наша команда готова радовать вас новыми проектами.</p>
+                <a href="#news" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2 class="section-title">Новости</h2>
+            
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="search-input" class="search-input" placeholder="Поиск по новостям...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="search-results-info" id="search-results-info"></div>
+            </div>
+            
+            <div class="news-grid" id="news-grid">
+                <div class="news-card" data-search="обновление дизайн визуальный сайт современный удобный социальные сети телеграм вк твиттер">
+                    <img src="1.png" alt="Будущее обновление дизайна" class="news-image" width="400" height="250">
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <div class="news-date">
+                                <i class="far fa-calendar-alt"></i> 19 ноября 2025
+                            </div>
+                            <div class="news-read-time">
+                                <i class="far fa-clock"></i> 3 мин
+                            </div>
+                        </div>
+                        <h3 class="searchable-text">Будущее обновление дизайна</h3>
+                        <p class="searchable-text">Мы работаем над визуальным обновлением нашего сайта, чтобы сделать его еще более современным и удобным для вас. Добавляем новые социальные сети и улучшаем интерфейс.</p>
+                        <div class="tags">
+                            <span class="tag">Дизайн</span>
+                            <span class="tag">Обновление</span>
+                            <span class="tag">Соцсети</span>
+                        </div>
+                        <a href="1.html" class="btn">Читать далее</a>
+                    </div>
+                </div>
+                <div class="news-card" data-search="youtube канал azurvergo видео контент развитие официальный">
+                    <img src="2.png" alt="Канал на YouTube" class="news-image" width="400" height="250">
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <div class="news-date">
+                                <i class="far fa-calendar-alt"></i> 19 ноября 2025
+                            </div>
+                            <div class="news-read-time">
+                                <i class="far fa-clock"></i> 2 мин
+                            </div>
+                        </div>
+                        <h3 class="searchable-text">Канал Azurvergo теперь на YouTube!</h3>
+                        <p class="searchable-text">Теперь у нас есть официальный канал на YouTube! Это важный шаг в развитии, который позволит нам делиться интересным контентом и видео материалами.</p>
+                        <div class="tags">
+                            <span class="tag">YouTube</span>
+                            <span class="tag">Видео</span>
+                            <span class="tag">Соцсети</span>
+                        </div>
+                        <a href="2.html" class="btn">Читать далее</a>
+                    </div>
+                </div>
+                <div class="news-card" data-search="медиа контент материалы интересный проекты создание">
+                    <img src="3.png" alt="О нашем медиаконтенте" class="news-image" width="400" height="250">
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <div class="news-date">
+                                <i class="far fa-calendar-alt"></i> 19 ноября 2025
+                            </div>
+                            <div class="news-read-time">
+                                <i class="far fa-clock"></i> 1 мин
+                            </div>
+                        </div>
+                        <h3 class="searchable-text">О нашем медиаконтенте</h3>
+                        <p class="searchable-text">Делаем различные медиаматериалы, которые могут быть интересны нашей аудитории. Создаем проекты и делимся новостями в удобном формате.</p>
+                        <div class="tags">
+                            <span class="tag">Медиа</span>
+                            <span class="tag">Контент</span>
+                            <span class="tag">Проекты</span>
+                        </div>
+                        <a href="3.html" class="btn">Читать далее</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="no-results" id="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>Ничего не найдено</h3>
+                <p>Попробуйте изменить запрос или использовать другие ключевые слова</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Наши контакты</h3>
+                    <p>
+                        <i class="fas fa-envelope"></i> 
+                        <a href="mailto:azurvergo@gmail.com" class="contact-link">azurvergo@gmail.com</a>
+                    </p>
+                </div>
+                <div class="contact-info">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@Azurvergo" class="social-link" target="_blank">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Логотип" height="30">
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Главная</a>
+                    <a href="#news">Новости</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+                <div class="copyright">
+                    © <span id="current-year"></span> Azurvergo. Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Поиск по новостям с мгновенным выделением текста
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('search-input');
+            const newsGrid = document.getElementById('news-grid');
+            const newsCards = document.querySelectorAll('.news-card');
+            const noResults = document.getElementById('no-results');
+            const searchResultsInfo = document.getElementById('search-results-info');
+            
+            // Сохраняем оригинальный текст для каждого элемента
+            const originalTexts = new Map();
+            document.querySelectorAll('.searchable-text').forEach(element => {
+                originalTexts.set(element, element.innerHTML);
+            });
+            
+            // Установка текущего года в футере
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+            
+            // Функция для экранирования специальных символов в regex
+            function escapeRegex(string) {
+                return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            }
+            
+            // Функция для удаления всех выделений
+            function removeHighlights() {
+                document.querySelectorAll('.searchable-text').forEach(element => {
+                    const originalHTML = originalTexts.get(element);
+                    if (originalHTML) {
+                        element.innerHTML = originalHTML;
+                    }
+                });
+            }
+            
+            // Функция для выделения текста
+            function highlightText(element, searchTerm) {
+                if (!searchTerm.trim()) return;
+                
+                const originalHTML = originalTexts.get(element);
+                const text = element.textContent;
+                
+                try {
+                    // Создаем regex для поиска с флагом 'gi' (глобальный, без учета регистра)
+                    const regex = new RegExp(`(${escapeRegex(searchTerm)})`, 'gi');
+                    
+                    if (regex.test(text)) {
+                        const newHTML = originalHTML.replace(regex, '<span class="highlight">$1</span>');
+                        element.innerHTML = newHTML;
+                    }
+                } catch (e) {
+                    // В случае ошибки в regex (например, невалидные символы)
+                    console.log('Regex error:', e);
+                }
+            }
+            
+            // Функция проверки видимости карточки
+            function isCardVisible(card, searchTerm) {
+                if (!searchTerm.trim()) return true;
+                
+                const searchData = card.getAttribute('data-search').toLowerCase();
+                const searchableElements = card.querySelectorAll('.searchable-text');
+                let hasMatch = false;
+                
+                // Проверяем совпадение в data-search
+                if (searchData.includes(searchTerm.toLowerCase())) {
+                    hasMatch = true;
+                }
+                
+                // Проверяем совпадение в видимом тексте
+                if (!hasMatch) {
+                    searchableElements.forEach(element => {
+                        const text = element.textContent.toLowerCase();
+                        if (text.includes(searchTerm.toLowerCase())) {
+                            hasMatch = true;
+                        }
+                    });
+                }
+                
+                return hasMatch;
+            }
+            
+            // Основная функция поиска
+            function performSearch() {
+                const searchTerm = searchInput.value.trim();
+                
+                // Удаляем предыдущие выделения
+                removeHighlights();
+                
+                let visibleCards = 0;
+                
+                newsCards.forEach(card => {
+                    const isVisible = isCardVisible(card, searchTerm);
+                    
+                    if (isVisible && searchTerm) {
+                        // Выделяем текст в видимых карточках
+                        const searchableElements = card.querySelectorAll('.searchable-text');
+                        searchableElements.forEach(element => {
+                            highlightText(element, searchTerm);
+                        });
+                    }
+                    
+                    card.style.display = isVisible ? 'block' : 'none';
+                    if (isVisible) visibleCards++;
+                });
+                
+                // Обновляем информацию о результатах
+                updateResultsInfo(visibleCards, searchTerm);
+            }
+            
+            // Функция обновления информации о результатах
+            function updateResultsInfo(visibleCards, searchTerm) {
+                if (visibleCards === 0 && searchTerm) {
+                    noResults.style.display = 'block';
+                    searchResultsInfo.textContent = 'Результатов не найдено';
+                    searchResultsInfo.style.color = '#ff6b6b';
+                } else {
+                    noResults.style.display = 'none';
+                    if (searchTerm) {
+                        searchResultsInfo.textContent = `Найдено новостей: ${visibleCards}`;
+                        searchResultsInfo.style.color = '#508ea9';
+                    } else {
+                        searchResultsInfo.textContent = '';
+                    }
+                }
+            }
+            
+            // Мгновенный поиск при вводе
+            searchInput.addEventListener('input', function() {
+                performSearch();
+            });
+            
+            // Обработчик очистки поиска
+            searchInput.addEventListener('keyup', function(e) {
+                if (e.key === 'Escape') {
+                    searchInput.value = '';
+                    performSearch();
+                    searchInput.focus();
+                }
+            });
+            
+            // Очистка при загрузке страницы
+            searchInput.addEventListener('focus', function() {
+                if (this.value) {
+                    performSearch();
+                }
+            });
+            
+            // Мобильное меню
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('nav-menu');
+            
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    hamburger.classList.toggle('active');
+                });
+            }
+            
+            // Закрытие меню при клике на ссылку
+            document.querySelectorAll('#nav-menu a').forEach(link => {
+                link.addEventListener('click', function() {
+                    navMenu.classList.remove('active');
+                    hamburger.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
