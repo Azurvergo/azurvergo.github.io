@@ -660,20 +660,26 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: var(--accent-color);
+    background: rgba(0, 0, 0, 0.8);
     color: white;
-    padding: 1rem 1.5rem;
+    padding: 12px 20px;
     border-radius: 5px;
-    box-shadow: var(--shadow);
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.3s ease;
+    font-size: 14px;
     z-index: 1000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
 }
 
 .copy-notification.show {
-    transform: translateY(0);
     opacity: 1;
+    transform: translateY(0);
+}
+
+/* Стили для активного меню */
+#nav-menu.active {
+    display: block !important;
 }
 
 /* Адаптивность для страниц статей */
@@ -793,4 +799,34 @@ footer {
     .youtube-promo {
         padding: 1rem;
     }
+}
+
+.copy-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
+}
+
+.copy-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Стили для активного меню */
+#nav-menu.active {
+    display: block !important;
+}
+
+.hamburger.active i::before {
+    content: "\f00d"; /* Иконка крестика */
 }
