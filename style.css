@@ -695,7 +695,7 @@ footer {
     }
 
     .article-image {
-        height: 250px;
+        height: 100%;
     }
 }
 
@@ -830,3 +830,4 @@ footer {
 .hamburger.active i::before {
     content: "\f00d"; /* Иконка крестика */
 }
+
