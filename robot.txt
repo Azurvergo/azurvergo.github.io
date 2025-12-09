@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /*.html
+Allow: /*.htm
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.mp4
+Allow: /*.webm
+Allow: /*.mov
+Allow: /*.pdf
+Allow: /*.css
+Allow: /*.js
+
+# Указываем карту сайта
+Sitemap: https://azurvergo.github.io/sitemap.xml
