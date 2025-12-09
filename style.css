@@ -316,7 +316,6 @@ section {
     align-items: center;
     gap: 0.5rem;
 }
-
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -1505,8 +1504,3 @@ footer {
         font-size: 0.9rem;
     }
 }
-
-
-
-
-
