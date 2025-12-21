@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.google.com/schemas/sitemap-image/1.1
+            http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+<!-- Главные изображения сайта -->
+<url>
+  <loc>https://azurvergo.github.io/</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/logo.png</image:loc>
+    <image:caption>Логотип Azurvergo - создаем IT-контент для профессионалов</image:caption>
+    <image:title>Логотип компании Azurvergo</image:title>
+    <image:geo_location>Russia</image:geo_location>
+    <image:license>https://creativecommons.org/licenses/by/4.0/</image:license>
+  </image:image>
+</url>
+
+<!-- Изображения из статьи о CMD -->
+<url>
+  <loc>https://azurvergo.github.io/cmd-commands-guide.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/cmd-main.png</image:loc>
+    <image:caption>Интерфейс командной строки Windows CMD - полный гид по командам</image:caption>
+    <image:title>Командная строка Windows CMD интерфейс</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/cmd-basics.png</image:loc>
+    <image:caption>Основы работы с командной строкой Windows для начинающих</image:caption>
+    <image:title>Основы командной строки Windows</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/cmd-files.png</image:loc>
+    <image:caption>Работа с файлами и каталогами в командной строке CMD</image:caption>
+    <image:title>Файлы в командной строке Windows</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/cmd-system.png</image:loc>
+    <image:caption>Системные команды Windows для администрирования</image:caption>
+    <image:title>Системные команды CMD Windows</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/cmd-advanced.png</image:loc>
+    <image:caption>Продвинутые возможности командной строки CMD</image:caption>
+    <image:title>Продвинутый CMD для опытных пользователей</image:title>
+  </image:image>
+</url>
+
+<!-- Изображения из раздела Продукты -->
+<url>
+  <loc>https://azurvergo.github.io/products.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/site-poster.jpg</image:loc>
+    <image:caption>Сайт azurvergo.github.io для продажи - готовый IT-проект</image:caption>
+    <image:title>Продается сайт azurvergo.github.io</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/pdf-poster.jpg</image:loc>
+    <image:caption>PDF руководство по созданию сайта на GitHub Pages</image:caption>
+    <image:title>Руководство GitHub Pages PDF</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/templates-poster.jpg</image:loc>
+    <image:caption>Набор профессиональных шаблонов HTML/CSS/JS</image:caption>
+    <image:title>Шаблоны кода для веб-разработки</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/tools-poster.jpg</image:loc>
+    <image:caption>Инструменты для разработки - скрипты и утилиты</image:caption>
+    <image:title>Инструменты разработчика</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/consulting-poster.jpg</image:loc>
+    <image:caption>Индивидуальная консультация по веб-разработке</image:caption>
+    <image:title>Консультация IT-специалиста</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/course-poster.jpg</image:loc>
+    <image:caption>Видеокурс Веб-разработка с нуля - обучение программированию</image:caption>
+    <image:title>Видеокурс по веб-разработке</image:title>
+  </image:image>
+</url>
+
+<!-- Изображения из новостей -->
+<url>
+  <loc>https://azurvergo.github.io/video.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/video-preview.jpg</image:loc>
+    <image:caption>Эксклюзивное демонстрационное видео Azurvergo с защитой от копирования</image:caption>
+    <image:title>Эксклюзивное видео Azurvergo</image:title>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://azurvergo.github.io/1.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/1.png</image:loc>
+    <image:caption>Будущее обновление дизайна сайта Azurvergo - новый визуал</image:caption>
+    <image:title>Обновление дизайна Azurvergo</image:title>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://azurvergo.github.io/2.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/2.png</image:loc>
+    <image:caption>Канал Azurvergo на YouTube - видео контент по IT технологиям</image:caption>
+    <image:title>YouTube канал Azurvergo</image:title>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://azurvergo.github.io/3.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/3.png</image:loc>
+    <image:caption>Медиаконтент Azurvergo - статьи, руководства, обзоры технологий</image:caption>
+    <image:title>Медиа контент Azurvergo</image:title>
+  </image:image>
+</url>
+
+<!-- Изображения из раздела О компании -->
+<url>
+  <loc>https://azurvergo.github.io/about.html</loc>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/about-main.jpg</image:loc>
+    <image:caption>О компании Azurvergo - создаем IT-контент для профессионалов</image:caption>
+    <image:title>Компания Azurvergo - о нас</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/about-process.jpg</image:loc>
+    <image:caption>Процесс создания контента в Azurvergo - от идеи до публикации</image:caption>
+    <image:title>Процесс работы Azurvergo</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/about-team.jpg</image:loc>
+    <image:caption>Команда Azurvergo за работой - IT специалисты и разработчики</image:caption>
+    <image:title>Команда Azurvergo</image:title>
+  </image:image>
+  <image:image>
+    <image:loc>https://azurvergo.github.io/about-preview.png</image:loc>
+    <image:caption>Превью страницы О компании Azurvergo - Open Graph изображение</image:caption>
+    <image:title>Превью Azurvergo для соцсетей</image:title>
+  </image:image>
+</url>
+
+</urlset>

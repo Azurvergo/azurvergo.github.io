@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.google.com/schemas/sitemap-video/1.1
+            http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd">
+
+<url>
+  <loc>https://azurvergo.github.io/video.html</loc>
+  <video:video>
+    <!-- Обязательные поля -->
+    <video:thumbnail_loc>https://azurvergo.github.io/video-preview.jpg</video:thumbnail_loc>
+    <video:title>Эксклюзивное демонстрационное видео Azurvergo</video:title>
+    <video:description>Представляем наше новое эксклюзивное видео с уникальной системой защиты от скачивания и копирования. Только для просмотра на нашем сайте! Видео демонстрирует возможности нашего медиаконтента и технологии защиты.</video:description>
+    <video:content_loc>https://azurvergo.github.io/video.html</video:content_loc>
+    
+    <!-- Рекомендуемые поля -->
+    <video:duration>120</video:duration>
+    <video:expiration_date>2026-12-09T22:01:27+00:00</video:expiration_date>
+    <video:rating>4.8</video:rating>
+    <video:view_count>1500</video:view_count>
+    <video:publication_date>2025-11-24T00:00:00+00:00</video:publication_date>
+    <video:family_friendly>yes</family_friendly>
+    <video:requires_subscription>no</requires_subscription>
+    <video:live>no</live>
+    
+    <!-- Дополнительные поля для улучшения индексации -->
+    <video:category>Технологии</video:category>
+    <video:tag>видео</video:tag>
+    <video:tag>эксклюзив</video:tag>
+    <video:tag>IT</video:tag>
+    <video:tag>технологии</video:tag>
+    <video:tag>Azurvergo</video:tag>
+    <video:tag>медиаконтент</video:tag>
+    
+    <!-- Информация о загрузке -->
+    <video:uploader info="https://azurvergo.github.io/about.html">Azurvergo</uploader>
+    <video:player_loc allow_embed="yes" autoplay="ap=1">https://azurvergo.github.io/video.html</player_loc>
+    
+    <!-- География -->
+    <video:restriction relationship="allow">RU US GB DE FR</restriction>
+    <video:platform relationship="allow">web mobile tv</platform>
+    <video:price currency="RUB">0</price>
+    <video:price currency="USD">0</price>
+    
+    <!-- Рейтинги и возрастные ограничения -->
+    <video:rating>4.8</rating>
+    <video:rating_count>120</rating_count>
+    <video:review_count>45</review_count>
+    
+    <!-- Образовательный контент -->
+    <video:educational>no</educational>
+    
+    <!-- Ссылка на канал -->
+    <video:gallery_loc title="YouTube канал Azurvergo">https://www.youtube.com/@Azurvergo</gallery_loc>
+  </video:video>
+</url>
+
+<!-- Если есть YouTube видео -->
+<url>
+  <loc>https://azurvergo.github.io/</loc>
+  <video:video>
+    <video:thumbnail_loc>https://azurvergo.github.io/2.png</video:thumbnail_loc>
+    <video:title>YouTube канал Azurvergo - IT технологии и разработка</video:title>
+    <video:description>Официальный YouTube канал Azurvergo с видео материалами по IT технологиям, веб-разработке и программированию. Подписывайтесь!</video:description>
+    <video:content_loc>https://www.youtube.com/@Azurvergo</video:content_loc>
+    <video:duration>600</video:duration>
+    <video:view_count>5000</view_count>
+    <video:publication_date>2025-11-19T00:00:00+00:00</publication_date>
+    <video:family_friendly>yes</family_friendly>
+    <video:requires_subscription>no</requires_subscription>
+    <video:uploader info="https://azurvergo.github.io/about.html">Azurvergo</uploader>
+    <video:live>no</live>
+  </video:video>
+</url>
+
+</urlset>
